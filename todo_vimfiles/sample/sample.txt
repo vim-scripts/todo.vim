@@ -1,0 +1,8 @@
+#todo
+
+Any file whose first line starts with #todo is a 'todo' file:
+
+o This is a normal todo.
+D This is done
+X Ignored
+? Question.

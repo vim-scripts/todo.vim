@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1938
+
+Adds syntax highlighting for simple to do lists.
+
+This is pretty rudimentary right now, but I've been using it for a while. Please send me comments/suggestions.
+
+The file todo.vim lists known limitations/bugs.

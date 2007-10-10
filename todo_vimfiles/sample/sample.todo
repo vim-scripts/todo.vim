@@ -1,0 +1,25 @@
+
+A Header line ends with a colon:
+
+    A sub-header is like a header, but is indented:
+
+    + This is a high pri item, indicated by a '+' at the start.
+    o This is a medium priority item, indicated by 'o'.
+    - Low pri items start with a '-'.
+
+    + A high pri completed item is suffixed by ':done', like so:done
+    d Changing the prefix to 'd' does the same, if we don't care about
+      preserving the priority info.
+    o An item that ends with ':ignore' is an ignored item :ignore
+    x Another way to say the same thing.
+
+    ? An item that is in question, needs more info, etc.
+
+    o Entries can also contain a date like so: <2007/12/11>,
+      or even multiple dates: do this by <2007-12-11>, or at the latest by
+      <12/31>.
+    o Or so: <8/1>
+
+    o Comments can be embedded [this is a comment] inside an item.
+      [Comments can also contain a date <99/99/99>].
+
