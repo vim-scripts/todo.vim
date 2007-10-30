@@ -1,7 +1,6 @@
 #todo
 
 Overview:
-
     A 'todo' file contains todo items:
 
         + A high priority item
@@ -35,6 +34,18 @@ Complete install:
 
 --------------------------------------------------------------------------
 History:
+
+    V 0.31:
+    * .zip packaging of V 0.3.
+
+    V 0.3:
+    * Fixed a bug where header lines with words ending in 'd' or 'x'
+      weren't getting hightlighted.
+    * The '#todo' marker can now be placed anywhere in the first 10
+      lines of the file (modify scripts.vim to change this).
+
+    V 0.21:
+    * .zip packaging of V 0.2.
 
     V 0.2:
     * Added highlighting for dates specified within <>.

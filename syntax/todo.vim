@@ -34,8 +34,7 @@ syn match todoDate   "<\(\(\d\{1,4\}[-/]\)\?\d\{1,2\}[-/]\d\{1,4\}\)>" contained
 syn region todoComment   start="\["hs=s+1 end="\]"he=e-1 contained contains=todoDate
 
 " Header lines to start sections.
-
-syn match todoHeader1    "^\(\([odxi\?]\s\)\@<!.\)*:$" contains=todoDate
+syn match todoHeader1    "^\(\(\<[odxi\?]\s\)\@<!.\)*:$" contains=todoDate
 syn match todoHeader2    "^\s\s*\(\([odxi\?]\s\)\@<!.\)*:$" contains=todoDate
 
 " Normal priority items.
