@@ -1,8 +1,31 @@
 #todo
 
-Any file whose first line starts with #todo is a 'todo' file:
+Any text file whose name ends with '.todo' or with '_todo.txt,
+or whose first 100 lines contains '#todo' is a 'todo' file.
 
-o This is a normal todo.
-D This is done
-X Ignored
-? Question.
+A Header starts in column 1 with an upper-case letter and ends with a colon:
+
+    A sub-header is any indented header line:
+
+    + This is a high pri item, indicated by a '+' at the start.
+    o This is a medium priority item, indicated by 'o'.
+    - Low pri items start with a '-'.
+
+    + A completed item:done
+    D Another way to mark an item completed is to replace the
+      prefix character (+/o/-) with D.
+    d A partially completed item has the prefix character 'd'.
+
+    o An ignored item:ignore
+    x Another way to ignore an item is to use the 'x' prefix
+      character.
+
+    ? An item that is in question, needs more info, etc.
+
+    o Entries can also contain dates like so:
+      <2007/12/11>
+      <2007-12-11>
+      <12/31>
+      <8/1>
+
+    o Comments can be embedded [this is a comment] inside an item.

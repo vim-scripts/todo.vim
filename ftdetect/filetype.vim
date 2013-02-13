@@ -1,3 +1,3 @@
 augroup filetypedetect
-    au BufRead,BufNewFile *.todo setfiletype todo
+  au BufRead,BufNewFile *.todo,*_todo.txt setfiletype todo
 augroup END

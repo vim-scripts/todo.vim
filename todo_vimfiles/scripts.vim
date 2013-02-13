@@ -1,3 +1,3 @@
-if getline(1) =~? '^#\?TODO\>'
+if join(getline(1,100),' ') =~? '\<#\?TODO\>'
     setfiletype todo
 endif
